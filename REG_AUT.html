@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration/Authorization</title>                    <!--Змінити на назву сайту + допис авторизація-->
+
+    <link rel="shortcut icon" href="........" type="image/png">  <!--Додати посилання на іконку сайту-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Reg_Aut_File/style.css">
+    <meta charset="utf-8">
+</head>
+
+<style>
+  body {background: url(Reg_Aut_File/BG.jpg);}
+</style>
+
+<body>
+
+  <div class="login-page">
+    <div class="form">
+      <form class="register-form">
+
+        <input type="text" name="Name" id="Name" placeholder="Name"/>
+        <input type="text" placeholder="Surname"/>
+        <input type="password" placeholder="Password"/>
+        <input type="password" placeholder="Repeat password"/>
+        <input type="text" placeholder="Е-mail"/>
+
+        <button id="LOG"><a class="BTN_sty" href="Main.html">Register</button></a> <!--Посилання на головну сайту після закіньчення реєстрації-->
+        <p class="message">Already registered? - <a href="#">Authorize</a></p>
+        <a href="Main.html">Back</a> <!--Посилання на головну сайту-->
+      </form>
+
+      <form class="login-form">
+
+        <input type="text" placeholder="Name"/>
+        <input type="text" placeholder="Е-mail"/>
+        <input type="password" placeholder="Password"/>
+
+        <button><a class="BTN_sty" href="Main.html">Log in</a></button> <!--Посилання на головну сайту після закіньчення авторизації-->
+        <p class="message">Not registered? - <a href="#">Create an account</a></p>
+        <a href="Main.html">Back</a> <!--Посилання на головну сайту-->
+      </form>
+    </div>
+  </div>
+
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+ <script src="Reg_Aut_File/script.js"></script> 
+</body>
+</html>
